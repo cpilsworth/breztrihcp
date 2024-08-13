@@ -9,11 +9,27 @@
   min-height: 300px;
 }
 
+.hero div:first-child {
+  height: 345px;
+}
+
+.hero div:nth-child(2) {
+  position: relative;
+  top: -100px
+}
+
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 600px;
+  margin-left: 300px;
   color: var(--background-color);
+  color: black;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-left: 300px;
+  max-width: 600px;
+  font-weight: 400;
 }
 
 .hero picture {
