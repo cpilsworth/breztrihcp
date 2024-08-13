@@ -1,3 +1,52 @@
+
+@font-face {
+  font-family: GothamBold;
+  font-display: swap;
+  src: url('/fonts/Gotham-Bold.eot?iefix') format('embedded-opentype'), url('/fonts/Gotham-Bold.ttf') format('ttf'), url('/fonts/Gotham-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: GothamMedium;
+  font-display: swap;
+  src: url('/fonts/Gotham-Medium.woff') format('woff'), url('/fonts/GothamMedium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: GothamLight;
+  font-display: swap;
+  src: url('/fonts/Gotham-Light.woff');
+}
+
+@font-face {
+  font-family: GothamBook;
+  font-display: swap;
+  src: url('/fonts/Gotham-Book.woff');
+}
+
+@font-face {
+  font-family: GothamBookItalic;
+  font-display: swap;
+  src: url('/fonts/Gotham-BookItalic.otf');
+}
+
+@font-face {
+  font-family: GothamBoldItalic;
+  font-display: swap;
+  src: url('/fonts/GothamBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: GothamLightItalic;
+  font-display: swap;
+  src: url('/fonts/GothamLightItalic.ttf');
+}
+
+@font-face {
+  font-family: GothamBlack;
+  font-display: swap;
+  src: url('/fonts/Gotham-Black.woff') format('woff');
+}
+
 /* stylelint-disable max-line-length */
 @font-face {
   font-family: roboto-condensed;
