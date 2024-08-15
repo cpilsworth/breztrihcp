@@ -25,3 +25,16 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.two-col > ul {
+  grid-template-columns: repeat(2, minmax(257px, 1fr));
+}
+
+.cards.two-col > ul > li {
+  border: 0px;
+  padding-bottom: 32px; 
+}
+
+.cards.two-col > ul > li img {
+  width: initial
+}
