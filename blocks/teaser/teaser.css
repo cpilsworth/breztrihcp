@@ -1,0 +1,38 @@
+main > .section > div.teaser-wrapper {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.teaser {
+    background-color: #f1bb43;
+    margin: 0 0;
+    padding: 32px 32px;
+
+    & > div {
+        width: 80%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    & .teaser__image {
+        width: 50%;
+    }
+    & .teaser__content {
+        flex: 1;
+        width: 50%;
+        color: #383a36;
+
+        & .cta {
+            display: inline-block;
+            background-color: #383a36;
+            color: white;
+            padding: 8px 32px;
+        }
+
+        & .cta::after {
+            content: '→';
+            margin-left: 8px;
+        }
+    }
+}
